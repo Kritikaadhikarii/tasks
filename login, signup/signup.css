@@ -1,0 +1,30 @@
+body{
+    background-color: #F8EDE3;
+}
+
+.intro{
+
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    justify-content: flex-end;
+    width: 40%;
+    border-radius: 5%;
+    background-color: #F2E3DB;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+h1{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #41644A;
+}
+

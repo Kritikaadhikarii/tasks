@@ -1,0 +1,22 @@
+body{
+    background-color: #E6E5A3;
+}
+
+h1{
+    background-color: #557153;
+    text-align: center;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+h2{
+    background-color: #557153;
+    text-align: center;
+    border-radius: 25px;
+    color: aliceblue;
+}
+.right{
+    background-color: #A9AF7E;
+    border-radius: 25px;
+    text-align: center;
+}

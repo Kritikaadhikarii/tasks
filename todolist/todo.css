@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the todo list */
+  .todo-list {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  /* Style the todo list items */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+  }
+  
+  

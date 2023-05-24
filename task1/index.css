@@ -1,0 +1,107 @@
+/* body{
+    background-color: white;
+} */
+
+
+one{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.one img{
+    position: absolute;
+    width: 151px;
+    height: 101px;
+    left: 648px;
+    top: 34px;
+}
+
+
+nav{
+    /* Our Hotel Rooms & Rates Facilities Contact Us */
+    position: absolute;
+    width: 653px;
+    height: 28px;
+    left: 365px;
+    top: 183px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height */
+    color: #957554;
+    mix-blend-mode: normal;
+    font-family: Ubuntu;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: nullpx;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0; /* Add margin on top and bottom */
+}
+
+nav li {
+    margin: 0 10px; /* Add margin on left and right */
+}
+
+
+
+/* for second div */
+
+.two {
+/* Rectangle 16 */
+
+
+position: absolute;
+width: 1441px;
+height: 119px;
+left: 0px;
+top: 241px;
+background: #111111;
+bottom: 241px;
+
+
+}
+
+.two ul {
+    display: flex;
+    justify-content: center; /* Center align the list items */
+    list-style: none;
+    padding: 0; /* Remove default padding */
+}
+
+.two li {
+    padding: 10px; /* Add padding to create space within list items */
+    border: 1px solid white; /* Add border to each list item */
+    background-color: white; /* Set background color to white */
+    border-radius: 15px;
+    margin-right: 5px; /* Adjust margin to bring the boxes closer */
+
+    
+}
+
+.two li:last-child {
+    margin-right: 0; /* Remove margin on the last box */
+}
+
+
+/* for three div */
+.three{
+    /* hDbCjHNdF48 */
+
+
+position: absolute;
+width: 1441px;
+height: 790px;
+left: 0px;
+top: 358px;
+
+background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
+}
