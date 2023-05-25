@@ -231,7 +231,7 @@ border-radius: 10px;
 
 
 
-  .five {
+  /* .five {
     position: absolute;
     width: 312px;
     height: 52px;
@@ -244,7 +244,7 @@ border-radius: 10px;
     line-height: 52px;
     color: #957554;
     mix-blend-mode: normal;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap;
   }
   
   .room-container {
@@ -266,18 +266,39 @@ border-radius: 10px;
   }
   
   .room h1 {
+    position: absolute;
+    width: 312px;
+    height: 52px;
+    left: 564px;
+    top: 1334px;
+    
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 45px;
+    line-height: 52px;
+
+    
     color: #957554;
+    
     mix-blend-mode: normal;
-    margin-top: 10px;
   }
   
   .room button {
     margin-top: 10px;
   }
   
-  
+   */
+
+
+
+.six{
+  position: absolute;
+width: 100%;
+height: auto;
+/* left: 61px; */
+top: 2550px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
