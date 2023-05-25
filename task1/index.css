@@ -171,3 +171,78 @@ top: 503px;
 background: #DFAA5B;
 border-radius: 10px;
   }
+
+
+
+  .four {
+    position: absolute;
+    width: 1319px;
+    height: 289px;
+    left: 61px;
+    top: 989px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex; /* Add flex display */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-around; /* Add space between flex items */
+    align-items: center; /* Align items vertically */
+    color: #957554;
+    
+  }
+  
+  .four h1 {
+    flex-basis: 100%; /* Take up full width */
+    text-align: center;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    color: #957554;
+    mix-blend-mode: normal;
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .four .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .four .flex img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .four .flex p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #957554;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+  }
+  
+
+
+
+    .five {
+        position: absolute;
+        width: 312px;
+        height: 52px;
+        left: 450px;
+        top: 1334px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 52px;
+        color: #957554;
+        mix-blend-mode: normal;
+        white-space: nowrap; /* Prevent text from wrapping */
+      }
