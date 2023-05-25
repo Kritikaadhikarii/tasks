@@ -66,6 +66,7 @@ left: 0px;
 top: 241px;
 background: #111111;
 bottom: 241px;
+font-size: 20px;
 
 
 }
@@ -92,16 +93,81 @@ bottom: 241px;
 }
 
 
-/* for three div */
-.three{
-    /* hDbCjHNdF48 */
+.three {
+    position: relative;
+    width: 1441px;
+    height: 790px;
+    left: 0;
+    top: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
+  }
+  
+  .three img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .three h1 {
+    position: absolute;
+    top: calc(50% - 73px); /* Adjusted the top value to move higher */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 987px;
+    /* height: 106px;
+    left: 244px;
+    top: 681px; */
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+  
+  .three p {
+    position: absolute;
+    top: calc(50% + 13px); /* Adjusted the top value to move higher */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 474px;
+    /* height: 28px;
+    left: 474px;
+    top: 784px; */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+  
+  .explore-button{
+    position: absolute;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
 
 
-position: absolute;
-width: 1441px;
-height: 790px;
-left: 0px;
-top: 358px;
+color: #FFFFFF;
 
-background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
-}
+mix-blend-mode: normal;
+    position: absolute;
+width: 371px;
+height: 76px;
+left: 535px;
+top: 503px;
+
+background: #DFAA5B;
+border-radius: 10px;
+  }
