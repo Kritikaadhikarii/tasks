@@ -231,18 +231,53 @@ border-radius: 10px;
 
 
 
-    .five {
-        position: absolute;
-        width: 312px;
-        height: 52px;
-        left: 450px;
-        top: 1334px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 45px;
-        line-height: 52px;
-        color: #957554;
-        mix-blend-mode: normal;
-        white-space: nowrap; /* Prevent text from wrapping */
-      }
+  .five {
+    position: absolute;
+    width: 312px;
+    height: 52px;
+    left: 450px;
+    top: 1334px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    color: #957554;
+    mix-blend-mode: normal;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .room-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .room {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .room img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .room h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #957554;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+  }
+  
+  .room button {
+    margin-top: 10px;
+  }
+  
+  
