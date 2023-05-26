@@ -231,74 +231,15 @@ border-radius: 10px;
 
 
 
-  /* .five {
-    position: absolute;
-    width: 312px;
-    height: 52px;
-    left: 450px;
-    top: 1334px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 52px;
-    color: #957554;
-    mix-blend-mode: normal;
-    white-space: nowrap;
-  }
+  .five {
   
-  .room-container {
-    display: flex;
-    justify-content: space-between;
+    gap: 20px; 
+    margin-top: 600px; 
   }
   
   .room {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+
   }
   
-  .room img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .room h1 {
-    position: absolute;
-    width: 312px;
-    height: 52px;
-    left: 564px;
-    top: 1334px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 52px;
-
-    
-    color: #957554;
-    
-    mix-blend-mode: normal;
-  }
-  
-  .room button {
-    margin-top: 10px;
-  }
-  
-   */
-
-
-
-.six{
-  position: absolute;
-width: 100%;
-height: auto;
-/* left: 61px; */
-top: 2550px;
-
-background: #FFFFFF;
-border-radius: 10px;
-}
