@@ -18,7 +18,7 @@ one{
 
 
 nav{
-    /* Our Hotel Rooms & Rates Facilities Contact Us */
+
     position: absolute;
     width: 653px;
     height: 28px;
@@ -28,8 +28,6 @@ nav{
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 28px;
-/* identical to box height */
     color: #957554;
     mix-blend-mode: normal;
     font-family: Ubuntu;
@@ -56,10 +54,8 @@ nav li {
 /* for second div */
 
 .two {
-/* Rectangle 16 */
 
-
-position: absolute;
+  position: absolute;
 width: 1441px;
 height: 119px;
 left: 0px;
@@ -68,28 +64,29 @@ background: #111111;
 bottom: 241px;
 font-size: 20px;
 
-
 }
 
 .two ul {
+
     display: flex;
-    justify-content: center; /* Center align the list items */
+    justify-content: center;
     list-style: none;
-    padding: 0; /* Remove default padding */
+    padding: 0;
+
 }
 
 .two li {
-    padding: 10px; /* Add padding to create space within list items */
-    border: 1px solid white; /* Add border to each list item */
-    background-color: white; /* Set background color to white */
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
     border-radius: 15px;
-    margin-right: 5px; /* Adjust margin to bring the boxes closer */
+    margin-right: 5px;
 
     
 }
 
 .two li:last-child {
-    margin-right: 0; /* Remove margin on the last box */
+    margin-right: 0;
 }
 
 
@@ -182,16 +179,16 @@ border-radius: 10px;
     top: 989px;
     background: #FFFFFF;
     border-radius: 10px;
-    display: flex; /* Add flex display */
-    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
-    justify-content: space-around; /* Add space between flex items */
-    align-items: center; /* Align items vertically */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     color: #957554;
     
   }
   
   .four h1 {
-    flex-basis: 100%; /* Take up full width */
+    flex-basis: 100%;
     text-align: center;
     margin: 0;
     font-family: 'Ubuntu';
@@ -201,7 +198,7 @@ border-radius: 10px;
     line-height: 52px;
     color: #957554;
     mix-blend-mode: normal;
-    margin-top: 20px; /* Add margin at the top */
+    margin-top: 20px;
   }
   
   .four .flex {
@@ -231,15 +228,207 @@ border-radius: 10px;
 
 
 
-  .five {
-  
-    gap: 20px; 
-    margin-top: 600px; 
-  }
-  
-  .room {
-    display: flex;
-    flex-direction: row;
+.five .main{
+  text-align: center;
+  position: absolute;
+width: 312px;
+height: 52px;
+left: 564px;
+top: 1334px;
 
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 52px;
+color: #957554;
+mix-blend-mode: normal;
+}
+
+.five h1{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 46px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+.five button{
+  background: #DFAA5B;
+  border-radius: 10px;
+  width: 244px;
+  height: 76px;
+  top: 1805px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+
+
+.room1{
+  position: absolute;
+width: 630px;
+height: 500px;
+left: 60px;
+top: 1439px;
+mix-blend-mode: normal;
+border-radius: 10px;
+}
+
+.room1 h1{
+position: absolute;
+left: 150px;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+.room1 button{
+  position: absolute;
+width: 244px;
+height: 76px;
+left: 320px;
+top: 70%;
+transform: translate(-50%, -50%);
+
+}
+
+.room2{
+  position: absolute;
+width: 630px;
+height: 500px;
+left: 750px;
+top: 1439px;
+border-radius: 10px;
+}
+
+
+.room2 h1{
+  position: absolute;
+  left: 190px;
+  top: 50%;
+  transform: translateY(-50%);
+  
   }
   
+  .room2 button{
+    position: absolute;
+  width: 244px;
+  height: 76px;
+  left: 350px;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  
+  }
+
+
+.room3{
+  position: absolute;
+  width: 1319px;
+  height: 500px;
+  left: 60px;
+  top: 1997px;
+  border-radius: 10px;
+}
+
+.room3 h1{
+  position: absolute;
+  left: 195px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.room3 button{
+  position: absolute;
+width: 244px;
+height: 76px;
+left: 320px;
+top: 70%;
+transform: translate(-50%, -50%);
+
+}
+
+
+
+.room4{
+  position: absolute;
+  width: 1319px;
+  height: 500px;
+  left: 750px;
+  top: 1997px;
+  border-radius: 10px;
+}
+
+
+.room4 h1{
+  position: absolute;
+  left: 250px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  }
+  
+  .room4 button{
+    position: absolute;
+  width: 244px;
+  height: 76px;
+  left: 350px;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  
+  }
+
+
+
+  .six{
+    position: absolute;
+width: 1319px;
+height: 277px;
+left: 61px;
+top: 2550px;
+
+background: #FFFFFF;
+border-radius: 10px;
+text-align: center;
+  }
+
+
+  .six h1{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 52px;
+/* identical to box height */
+
+
+color: #957554;
+
+mix-blend-mode: normal;
+  }
+
+  .six button{
+    background: #DFAA5B;
+border-radius: 10px;
+width: 418px;
+height: 76px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+  }
