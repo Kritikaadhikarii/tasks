@@ -2,12 +2,12 @@ body{
     width: 100%;
 }
 
-
 one{
     background-color: white;
     width: 100%;
     height: auto;
 }
+
 .one img{
     position: absolute;
     width: 151px;
@@ -16,9 +16,7 @@ one{
     top: 34px;
 }
 
-
 nav{
-
     position: absolute;
     width: 653px;
     height: 28px;
@@ -34,8 +32,6 @@ nav{
     letter-spacing: 0em;
     text-align: left;
     border-radius: nullpx;
-
-
 }
 
 nav ul {
@@ -50,208 +46,188 @@ nav li {
 }
 
 
-
 /* for second div */
 
 .two {
-
   position: absolute;
-width: 1441px;
-height: 119px;
-left: 0px;
-top: 241px;
-background: #111111;
-bottom: 241px;
-font-size: 20px;
-
+  width: 1441px;
+  height: 119px;
+  left: 0px;
+  top: 241px;
+  background: #111111;
+  bottom: 241px;
+  font-size: 20px;
 }
 
 .two ul {
-
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .two li {
     padding: 10px;
-    border: 1px solid white;
     background-color: white;
     border-radius: 15px;
-    margin-right: 5px;
-
-    
+    margin-right: 15px;    
 }
 
 .two li:last-child {
     margin-right: 0;
 }
 
-
-.three {
-    position: relative;
-    width: 1441px;
-    height: 790px;
-    left: 0;
-    top: 358px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
-  }
-  
-  .three img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .three h1 {
-    position: absolute;
-    top: calc(50% - 73px); /* Adjusted the top value to move higher */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 987px;
-    /* height: 106px;
-    left: 244px;
-    top: 681px; */
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 106px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-  }
-  
-  .three p {
-    position: absolute;
-    top: calc(50% + 13px); /* Adjusted the top value to move higher */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 474px;
-    /* height: 28px;
-    left: 474px;
-    top: 784px; */
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-  }
-  
-  .explore-button{
-    position: absolute;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-    position: absolute;
-width: 371px;
-height: 76px;
-left: 535px;
-top: 503px;
-
-background: #DFAA5B;
-border-radius: 10px;
-  }
-
-
-
-  .four {
-    position: absolute;
-    width: 1319px;
-    height: 289px;
-    left: 61px;
-    top: 989px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: #957554;
-    
-  }
-  
-  .four h1 {
-    flex-basis: 100%;
-    text-align: center;
-    margin: 0;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 52px;
-    color: #957554;
-    mix-blend-mode: normal;
-    margin-top: 20px;
-  }
-  
-  .four .flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-  }
-  
-  .four .flex img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .four .flex p {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #957554;
-    mix-blend-mode: normal;
-    margin-top: 10px;
-  }
-  
-
-
-.five .main{
-  text-align: center;
-  position: absolute;
-width: 312px;
-height: 52px;
-left: 564px;
-top: 1334px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 52px;
-color: #957554;
-mix-blend-mode: normal;
+.two button{
+  background-color: #DFAA5B;
+  border-radius: 15px;
 }
 
-.five h1{
+.three {
+  position: relative;
+  width: 1441px;
+  height: 790px;
+  left: 0;
+  top: 358px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(7, 7, 7, 0.22), rgba(7, 7, 7, 0.22)), url(.jpg);
+}
+
+.three img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.three h1 {
+  position: absolute;
+  top: calc(50% - 73px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 987px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 106px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+.three p {
+  position: absolute;
+  top: calc(50% + 13px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 474px;
   font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 46px;
-color: #FFFFFF;
-mix-blend-mode: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+  
+.explore-button{
+  position: absolute;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 371px;
+  height: 76px;
+  left: 535px;
+  top: 503px;
+  background: #DFAA5B;
+  border-radius: 10px;
+}
+
+.four {
+  position: absolute;
+  width: 1319px;
+  height: 289px;
+  left: 61px;
+  top: 989px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #957554;
+}
+
+.four h1 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #957554;
+  mix-blend-mode: normal;
+  margin-top: 20px;
+}
+
+.four .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.four .flex img {
+  max-width: 100%;
+  height: auto;
+}
+
+.four .flex p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #957554;
+  mix-blend-mode: normal;
+  margin-top: 10px;
+}
+
+.five .main {
+  text-align: center;
+  position: absolute;
+  width: 312px;
+  height: 52px;
+  left: 50%;
+  top: 1334px;
+  transform: translateX(-50%);
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #957554;
+  mix-blend-mode: normal;
+}
+
+
+.five h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
 }
 
 .five button{
@@ -269,64 +245,56 @@ mix-blend-mode: normal;
   mix-blend-mode: normal;
 }
 
-
-
-.room1{
+.room1 {
   position: absolute;
-width: 630px;
-height: 500px;
-left: 60px;
-top: 1439px;
-mix-blend-mode: normal;
-border-radius: 10px;
+  width: 630px;
+  height: 500px;
+  left: 60px;
+  top: 1439px;
+  mix-blend-mode: normal;
+  border-radius: 10px;
 }
 
-.room1 h1{
-position: absolute;
-left: 150px;
-top: 50%;
-transform: translateY(-50%);
-
-}
-
-.room1 button{
+.room1 h1 {
   position: absolute;
-width: 244px;
-height: 76px;
-left: 320px;
-top: 70%;
-transform: translate(-50%, -50%);
-
+  left: 150px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.room2{
+.room1 button {
   position: absolute;
-width: 630px;
-height: 500px;
-left: 750px;
-top: 1439px;
-border-radius: 10px;
+  width: 244px;
+  height: 76px;
+  left: 320px;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
 
+.room2 {
+  position: absolute;
+  width: 630px;
+  height: 500px;
+  left: 750px;
+  top: 1439px;
+  border-radius: 10px;
+}
 
-.room2 h1{
+.room2 h1 {
   position: absolute;
   left: 190px;
   top: 50%;
   transform: translateY(-50%);
-  
-  }
-  
-  .room2 button{
-    position: absolute;
+}
+
+.room2 button {
+  position: absolute;
   width: 244px;
   height: 76px;
   left: 350px;
   top: 70%;
   transform: translate(-50%, -50%);
-  
-  }
-
+}
 
 .room3{
   position: absolute;
@@ -347,102 +315,83 @@ border-radius: 10px;
 
 .room3 button{
   position: absolute;
-width: 244px;
-height: 76px;
-left: 320px;
-top: 70%;
-transform: translate(-50%, -50%);
-
+  width: 244px;
+  height: 76px;
+  left: 320px;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
 
-
-
-.room4{
+.room4 {
   position: absolute;
-  width: 1319px;
+  width: 630px; /* Adjust the width according to your layout */
   height: 500px;
   left: 750px;
   top: 1997px;
   border-radius: 10px;
 }
 
-
-.room4 h1{
+.room4 h1 {
   position: absolute;
   left: 250px;
   top: 50%;
   transform: translateY(-50%);
-  
-  }
-  
-  .room4 button{
-    position: absolute;
+}
+
+.room4 button {
+  position: absolute;
   width: 244px;
   height: 76px;
   left: 350px;
   top: 70%;
   transform: translate(-50%, -50%);
+}
+
+.six {
+  position: absolute;
+  width: 1319px;
+  height: 277px;
+  left: 61px;
+  top: 2550px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+ }
   
-  }
-
-
-
-  .six{
-    position: absolute;
-width: 1319px;
-height: 277px;
-left: 61px;
-top: 2550px;
-
-background: #FFFFFF;
-border-radius: 10px;
-text-align: center;
-  }
-
-
-  .six h1{
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 52px;
-/* identical to box height */
-
-
-color: #957554;
-
-mix-blend-mode: normal;
-  }
-
-  .six button{
-    background: #DFAA5B;
-border-radius: 10px;
-width: 418px;
-height: 76px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-  }
-
-
-.footer{
+.six h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #957554;
+  mix-blend-mode: normal;
+}
+  
+.six button {
+  background: #DFAA5B;
+  border-radius: 10px;
+  width: 418px;
+  height: 76px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+  
+.footer {
   background-color: black;
   color: white;
   position: absolute;
-width: 1440px;
-height: 469px;
-left: 1px;
-top: 2889px;
+  width: 1440px;
+  height: 469px;
+  left: 1px;
+  top: 2889px;
 }
-
+  
 .footer {
   padding: 20px;
   display: flex;
@@ -456,7 +405,6 @@ top: 2889px;
   flex-basis: 30%;
 }
 
-
 .footer-left{
   margin-left: 100px;
 }
@@ -465,108 +413,86 @@ top: 2889px;
   margin-right: 100px;
 }
 
-.footer-left h1 p{
-  /* position: absolute; */
-width: 263px;
-height: 83px;
-left: 60px;
-top: 3144px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
+.footer-left h1 p {
+  width: 263px;
+  height: 83px;
+  left: 60px;
+  top: 3144px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
 }
 
-.footer-left img{
 
-width: 154px;
-height: 126px;
-left: 56px;
-top: 2950px;
+.footer-left img{
+  width: 154px;
+  height: 126px;
+  left: 56px;
+  top: 2950px;
 }
 
 .footer-middle {
   width: 194px;
-height: 249px;
-left: 555px;
-top: 2950px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-margin-left: 180px;
-
+  height: 249px;
+  left: 555px;
+  top: 2950px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  margin-left: 180px;
 }
 
-.footer-right button{
+.footer-right button {
   width: 371px;
-height: 75px;
-left: 1000px;
-top: 3103px;
-
-background: #DFAA5B;
-border-radius: 10px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
+  height: 75px;
+  left: 1000px;
+  top: 3103px;
+  background: #DFAA5B;
+  border-radius: 10px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
 }
 
-.footer-right h1{
-
-width: 268px;
-height: 34px;
-left: 1000px;
-top: 2950px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 34px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-text-align: center;
+.footer-right h1 {
+  width: 268px;
+  height: 34px;
+  left: 1000px;
+  top: 2950px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  text-align: center;
 }
 
-input{
+input {
   width: 371px;
-height: 75px;
-left: 1000px;
-top: 3004px;
-
-background: #FFFFFF;
-border-radius: 10px;
-text-align: center;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.5);
+  height: 75px;
+  left: 1000px;
+  top: 3004px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.5);
 }
